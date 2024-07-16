@@ -1,9 +1,3 @@
-/*
-Author: Eli DeWitt 
-Date: April 2018
-*/
-
-
 //"secret" alphabet array
 const codedAlphabet = [
 	"Q", "q", "`",
