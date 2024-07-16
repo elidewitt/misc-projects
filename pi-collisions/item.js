@@ -1,8 +1,3 @@
-/*
-Author: Eli DeWitt, adpoted from Daniel Shiffman
-Date: March 2019
-*/
-
 class Item {
   constructor(position, velocity, mass) {
     this.position = position;
