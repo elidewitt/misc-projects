@@ -1,0 +1,38 @@
+<!---
+Author: Eli DeWitt 
+Date: April 2018
+--->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Encryption</title>
+		
+		<script src="./cipher.js"></script>
+		
+    </head>
+    <body>
+        
+        <input id="inputEncrypt" type="text" placeholder="Encryption"><br>
+        <input id="encryptKey"type="text" placeholder="Key" value="">
+        <br><br>
+        <button onclick="getElementById('encryptOutput').value = encrypt(getElementById('inputEncrypt').value, getElementById('encryptKey').value)">Convert!</button>
+        
+        <br>
+
+        <input placeholder="Encrypted text" id="encryptOutput" disabled></input>
+        
+        <br><br><br>
+        
+        <input id="inputDecrypt" type="text" placeholder="Decryption"><br>
+        <input id="decryptKey"type="text" placeholder="Key" value="">
+        <br><br>
+        <button onclick="getElementById('decryptOutput').value = decrypt(getElementById('inputDecrypt').value, getElementById('decryptKey').value)">Convert!</button>
+   
+        <br>
+
+        <input placeholder="Decrypted text" id="decryptOutput" onclick="this.select()" disabled></input>
+        
+    </body>
+	
+</html>
